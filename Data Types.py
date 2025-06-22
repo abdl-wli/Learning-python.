@@ -5,6 +5,7 @@
 
 import random
 import math
+from traceback import print_tb
 
 # what is numbers datatypes?
 # Ansewer > all the number are called Numbers datatypes (all the phone number are called numbers datatypes)
@@ -68,44 +69,46 @@ import math
 
 # I,e->
 
-user = {
-    'name' : 'abdul wali',
-    'age' : '19',
-    'course' : 'Python',
-    "hobbies" : ['Coding','circket','movies'],
-    'isOnFacebook': True,
+# user = {
+#     'name' : 'abdul wali',
+#     'age' : '19',
+#     'course' : 'Python',
+#     "hobbies" : ['Coding','circket','movies'],
+#     'isOnFacebook': True,
     
-}
+# }
 
-print(user['name'])
-print(user['age'])
-print(user['isOnFacebook'])
-print(user['hobbies'][2])
-print(user['hobbies'][0])
+# print(user['name'])
+# print(user['age'])
+# print(user['isOnFacebook'])
+# print(user['hobbies'][2])
+# print(user['hobbies'][0])
+
+
 # Tuples
 
-# myTup = (1, 2, 3)
-# print(myTup)
+# what is tuples?
 
 
-# x = 10
-# y = x
-# print("before ===>" , x)
-# print("before reassignment ===>" ,y)
-# x = 20;
-# print("after ===>" , x)
-# print(y)
+# my_tupe = (1,2,3)
+# print(my_tupe)
+# print(my_tupe[0])
+
+# courses = ('python',"javascript",'java','R',"C++")
+# print(courses)
+# print(courses[2])
 
 
-# mylist = [1, 2, 3]
-# mylistTwo = mylist
+mylist = ['kalob','zepher','henry','Toco']
+print(mylist)
 
-# mylist[0] = 55
-# print(mylistTwo)
+mylist2  = mylist
+print(mylist2)
+mylist2[3] = 'dog'
+print(mylist2)
 
-
-
-
+print( mylist == mylist2)
+print(mylist is  mylist2)
 # mylist = [1, 2, 3]
 # mylistTwo = mylist
 
